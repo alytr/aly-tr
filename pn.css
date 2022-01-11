@@ -1,0 +1,17 @@
+input{
+	width: 12%;
+}
+#h1{
+	text-shadow: skyblue;
+	text-align: center;
+}
+#table{
+	margin-left: 18%;
+}
+li{
+	list-style-type: none;
+
+}
+body{
+	background-color: darkkhaki;
+}
