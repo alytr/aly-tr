@@ -1,0 +1,33 @@
+    ALGORITHME_COMPTER_CARACTERS
+    VAR 
+    WORDS:INTEGER;
+    Count:string;
+
+    BEGIN
+    for(i=0; i<str.length; i++){
+          console.log(str.charAt(i));
+
+    }
+
+    END
+    
+    
+
+    ALGORITHME_COMPTER_WORDS
+    VAR 
+    WORDS:INTEGER;
+    Count:string;
+
+    BEGIN
+  
+  for (i = 0; i < words.length; i++) {
+    
+    if (words[i] != "") {
+      count += 1;
+    
+  }
+
+  return (count);
+}
+
+END
