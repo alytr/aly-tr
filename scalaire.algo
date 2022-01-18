@@ -1,0 +1,50 @@
+ALGORITHME_produit_scalaire
+
+PROCEDURE_dot_product
+VAR
+Tableau V1 (1) :reel;
+Tableau V2 (2) : reel;
+i : entier;
+n : reel ;
+
+DEBUT
+
+pour i <--0 a 2 pas 1 faire 
+
+Ecrire("donner l'element " ,i+1, du vecteur V1)
+lire(v1(i))
+Ecrire("donner l'element " ,i+1, du vecteur V2)
+lire(v1(i))
+
+fin pour
+
+p<--0
+pour i<-- 0 a 2 pas 1 faire 
+n <-- n + v1(i) * v2(i)
+
+fin pour 
+
+Ecrire("LE PRODUIT SCALAIRE DES VECTEURS v1 et V2 est :" , n)
+
+FIN
+
+
+ALGORITHME_vecteurs_orthogonaux
+VAR
+Tableau V1 (1) :reel;
+Tableau V2 (2) : reel;
+i : entier;
+n : reel ;
+
+DEBUT
+
+pour i<-- 0 a 2 pas 1 faire 
+n <-- n + v1(i) * v2(i)
+
+fin pour 
+si n=0 faire 
+Ecrire("v1(i) et V2(i) sont oathogonaux )
+
+fin si
+
+FIN
